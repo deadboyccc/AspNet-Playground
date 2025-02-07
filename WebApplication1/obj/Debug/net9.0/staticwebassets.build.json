@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "ACHQwCcHbEZ7K8HlhjdPss7ioRasTZBwftPUkDIkw98=",
+  "Source": "WebApplication1",
+  "BasePath": "_content/WebApplication1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApplication1\\wwwroot",
+      "Source": "WebApplication1",
+      "ContentRoot": "C:\\Users\\Ahmed\\Desktop\\Projects\\cs_tutorial\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Ahmed\\Desktop\\Projects\\cs_tutorial\\WebApplication1\\wwwroot\\pic.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ahmed\\Desktop\\Projects\\cs_tutorial\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "pic#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fw4n1pmfjf",
+      "Integrity": "ccILFGQ73/eiHvkwHmm20ZhohyaOOsgicvr4Z+VTvRk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pic.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "pic.fw4n1pmfjf.jpg",
+      "AssetFile": "C:\\Users\\Ahmed\\Desktop\\Projects\\cs_tutorial\\WebApplication1\\wwwroot\\pic.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "649391"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ccILFGQ73/eiHvkwHmm20ZhohyaOOsgicvr4Z+VTvRk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Mar 2024 21:11:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fw4n1pmfjf"
+        },
+        {
+          "Name": "label",
+          "Value": "pic.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ccILFGQ73/eiHvkwHmm20ZhohyaOOsgicvr4Z+VTvRk="
+        }
+      ]
+    },
+    {
+      "Route": "pic.jpg",
+      "AssetFile": "C:\\Users\\Ahmed\\Desktop\\Projects\\cs_tutorial\\WebApplication1\\wwwroot\\pic.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "649391"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ccILFGQ73/eiHvkwHmm20ZhohyaOOsgicvr4Z+VTvRk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Mar 2024 21:11:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ccILFGQ73/eiHvkwHmm20ZhohyaOOsgicvr4Z+VTvRk="
+        }
+      ]
+    }
+  ]
+}

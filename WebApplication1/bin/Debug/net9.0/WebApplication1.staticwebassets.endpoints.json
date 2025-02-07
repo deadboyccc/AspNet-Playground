@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "pic.fw4n1pmfjf.jpg",
+      "AssetFile": "pic.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "649391"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ccILFGQ73/eiHvkwHmm20ZhohyaOOsgicvr4Z+VTvRk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Mar 2024 21:11:00 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fw4n1pmfjf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ccILFGQ73/eiHvkwHmm20ZhohyaOOsgicvr4Z+VTvRk="
+        },
+        {
+          "Name": "label",
+          "Value": "pic.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "pic.jpg",
+      "AssetFile": "pic.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "649391"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ccILFGQ73/eiHvkwHmm20ZhohyaOOsgicvr4Z+VTvRk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Mar 2024 21:11:00 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ccILFGQ73/eiHvkwHmm20ZhohyaOOsgicvr4Z+VTvRk="
+        }
+      ]
+    }
+  ]
+}
