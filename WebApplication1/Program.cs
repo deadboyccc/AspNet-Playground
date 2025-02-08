@@ -57,6 +57,14 @@ app.MapGet("/fruit/{id}", (string id) =>
 
 app.MapPost("/fruit/{id}", (string id) =>
 {
+  // Typed result is the modern stuffs
+  if (string.IsNullOrEmpty(id))
+  {
+    return TypedResults.ValidationProblem(new Dictionary<string, string[]>{
+      { "id", new[] { "ID is required." ,"hehe"} }
+    });
+  }
+
   return TypedResults.ValidationProblem(new Dictionary<string, string[]>
         {
             { "Username", new[] { "Username is required." ,"trust me","joebiden"}}
@@ -83,6 +91,26 @@ record Fruit(string Name, int Stock)
 {
   // key = string , value = Fruit
   public static readonly Dictionary<string, Fruit> All = new();
+}
+
+// class for validation
+class ValidationHelper
+{
+  // the typpes here are concise sure but diabolically LONG xd
+  internal static async ValueTask<object?> ValidateId(
+EndpointFilterInvocationContext context,
+EndpointFilterDelegate next)
+  {
+    var id = context.GetArgument<string>(0);
+    if (string.IsNullOrEmpty(id) || !id.StartsWith('f'))
+    {
+      return Results.ValidationProblem(
+      new Dictionary<string, string[]>
+      {
+{"id", new[]{"Invalid format. Id must start with 'f'"}}});
+    }
+    return await next(context);
+  }
 }
 
 // class with two replace and create functions (crud)
