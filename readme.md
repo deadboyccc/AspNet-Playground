@@ -1,6 +1,6 @@
 # AspNet-Playground
 
-This repository is a public playground for experimenting with various .NET and ASP.NET features. It is intended for testing, benchmarking, and exploring different functionalities. Please note that this is not a professional codebase and is used solely for learning and experimentation purposes.
+This repository is a public playground for experimenting with various .NET and ASP.NET features as I'm reading ASP.NET Core in Action, Third Edition by Andrew Lock. It is intended for testing, benchmarking, and exploring different functionalities. Please note that this is not a professional codebase and is used solely for learning and experimentation purposes.
 
 ## Project Structure
 
